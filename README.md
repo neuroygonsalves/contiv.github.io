@@ -1,21 +1,22 @@
-# Contiv Website
+# contiv website 
 
 URL: http://contiv.github.io
 
 This repo contains the Contiv website source files (Markdown) and build scripts. If you want to make changes to the Contiv website, make changes to the source files under `websrc/source` and follow the instructions below.
 
-# Contributing
+# your contribution
 
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
-# Directory Structure
+# middleman project structure
 
-The directory structure for this repo follows the typical Middleman project structure. See https://middlemanapp.com for details.
+The directory structure for this repo follows the typical Middleman project structure.
+See https://middlemanapp.com for details.
+
+# Directory Structure
 
 - Top level directory contains the compiled static content for the contiv.github.io website
 - `websrc` directory contains the source files used to build the static content
-
-Directory structure:
 
 ```
 +- websrc: makefile, gemfile, and other build related files
